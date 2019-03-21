@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97085" started-at="2019-03-16T10:05:19Z" finished-at="2019-03-16T10:06:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97085" started-at="2019-03-16T10:05:19Z" finished-at="2019-03-16T10:06:56Z">
+      <class name="com.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@12b07fd]" name="setUp" is-config="true" duration-ms="64383" started-at="2019-03-16T10:05:19Z" finished-at="2019-03-16T10:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogoTest()[pri:1, instance:com.qa.testcases.LoginPageTest@12b07fd]" name="verifyLogoTest" duration-ms="176" started-at="2019-03-16T10:06:24Z" description="TC01_Verify the logo" finished-at="2019-03-16T10:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@12b07fd]" name="tearDown" is-config="true" duration-ms="649" started-at="2019-03-16T10:06:24Z" finished-at="2019-03-16T10:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.LoginPageTest@12b07fd]" name="setUp" is-config="true" duration-ms="15555" started-at="2019-03-16T10:06:24Z" finished-at="2019-03-16T10:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginTest()[pri:2, instance:com.qa.testcases.LoginPageTest@12b07fd]" name="verifyLoginTest" duration-ms="15479" started-at="2019-03-16T10:06:40Z" description="TC02_Verify login functionality" finished-at="2019-03-16T10:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginPageTest@12b07fd]" name="tearDown" is-config="true" duration-ms="746" started-at="2019-03-16T10:06:55Z" finished-at="2019-03-16T10:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
