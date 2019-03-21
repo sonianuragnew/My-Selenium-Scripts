@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM Parameterization Test Suite]">
+  <test thread-count="5" name="Free CRM Testing(failed)">
+    <parameter name="password" value="test1234"/>
+    <parameter name="url" value="https://www.freecrm.com/index.html"/>
+    <parameter name="username" value="crmtestcredentials"/>
+    <classes>
+      <class name="com.testngbasics.Test_Parameterization">
+        <methods>
+          <include name="crmLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testngbasics.Test_Parameterization -->
+    </classes>
+  </test> <!-- Free CRM Testing(failed) -->
+</suite> <!-- Failed suite [Free CRM Parameterization Test Suite] -->

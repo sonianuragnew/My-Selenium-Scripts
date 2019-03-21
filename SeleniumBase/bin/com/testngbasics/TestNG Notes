@@ -1,0 +1,7 @@
+Installation/Configuration of TestNG:
+1. Google ===> testng download testng.org ===> u will get url - http://beust.com/eclipse.
+2. Open Eclipse ===> Help ===> Install New Software ===> Paste the copied URL under "work with" field.
+3. TestNG will be displayed with a check box ===>  Check it ===> Next ===> Finish
+
+Verify if TestNG is installed:
+1. Eclipse ===> Windows ===> show view ===> other ===> java ===>TestNg(if TestNG is available means success)

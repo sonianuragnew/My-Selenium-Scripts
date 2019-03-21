@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Free CRM Parameterization Test Suite">
+	<test name="Free CRM Testing">
+	
+	<parameter name="url" value="https://www.freecrm.com/index.html"/>
+	<parameter name="username" value="crmtestcredentials"/>
+	<parameter name="password" value="test1234"/>
+	
+		<classes>
+			<class name="com.testngbasics.Test_Parameterization" />
+		</classes>
+	
+	</test>
+</suite>
