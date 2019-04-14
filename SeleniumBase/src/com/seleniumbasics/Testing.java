@@ -14,34 +14,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Testing {
 	
-	static WebDriver d ;
-	public static void main(String[] args) throws InterruptedException {
-	
 	System.setProperty("webdriver.chrome.driver", "C:\\Users\\xbbnd0r\\Downloads\\Selenium Setup\\BrowserDrivers\\chromedriver.exe");
-	d = new ChromeDriver();
+	d=new ChromeDriver();
+	d.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	d.manage().window().maximize();
-	//d.get("https://selenium-vinod.blogspot.com/p/task1.html");
-	
-	/*Actions action= new Actions(d);
-	action.contextClick(d.findElement(By.xpath("//input[@type='submit']"))).build().perform();
-	
-	Thread.sleep(1000);
-	JavascriptExecutor jse = ((JavascriptExecutor) d);
-	jse.executeScript("scroll(0,800)");
-	Thread.sleep(1000);
-	jse.executeScript("scroll(800,00)");*/
-	
-	/*JavascriptExecutor js = (JavascriptExecutor)d ;
-	Integer test = (Integer)js.executeScript("return document.images");
-	System.out.println(test);*/
-	
-	JavascriptExecutor js = (JavascriptExecutor)d ;
-	js.executeScript("window.open('https://www.google.com')");
-	
-	
-	
-	Thread.sleep(1000);
-	d.close();
+	d.get("https://jqueryui.com/droppable/");
 	
 	}
 

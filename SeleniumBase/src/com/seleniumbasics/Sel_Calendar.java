@@ -63,7 +63,7 @@ public class Sel_Calendar {
 		for(int i =0; i<alldates.size(); i++)
 		{
 			String jrnyDate =alldates.get(i).getText();
-			if(jrnyDate.equals("18"))
+			if(jrnyDate.equals("12"))
 			{
 				alldates.get(i).click();
 				System.out.println("Hurray! Journey date is selected");
